@@ -1,0 +1,16 @@
+# The SQL Queries I used to answer the questions:
+
+SELECT SUM(Value) FROM milk_production WHERE Year = 2023;
+
+SELECT AVG(Value) FROM honey_production WHERE Year = 2022;
+
+SELECT * FROM state_lookup WHERE state LIKE '%Iowa%;
+
+SELECT DISTINCT h.State_ANSI FROM honey_production h
+JOIN milk_production m ON h.State_ANSI = m.State_ANSI
+WHERE h.Year = 2022 AND m.Year = 2022:
+
+SELECT SUM(y.Value)
+FROM yogurt_production y
+WHERE y.Year = 2022 AND y.State_ANSI IN (
+    SELECT DISTINCT c.State_ANSI FROM cheese_production c WHERE c.Year = 2022 );
