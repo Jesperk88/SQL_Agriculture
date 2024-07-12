@@ -6,22 +6,15 @@ Question 1
 Find the total milk production for the year 2023.
 
 Question 2
-Show coffee production data for the year 2015.
-What is the total value?
-
-Question 3
 Find the average honey production for the year 2022.
 
-Question 4
+Question 3
 Get the state names with their corresponding ANSI codes from the state_lookup table.
 What number is Iowa?
 
-Question 5
-Find the highest yogurt production value for the year 2022.
-
-Question 6
+Question 4
 Find states where both honey and milk were produced in 2022.
 Did State_ANSI "35" produce both honey and milk in 2022?
 
-Question 7
+Question 5
 Find the total yogurt production for states that also produced cheese in 2022.
